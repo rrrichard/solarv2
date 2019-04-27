@@ -1,0 +1,22 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+
+/*need this to assign the animation to the svg circle*/
+#neptune {
+    animation: NeptuneOrbit 20s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+/*you can edit the animation with this*/
+@keyframes NeptuneOrbit {
+    from { transform: rotate(0deg) translate(500px) rotate(0deg);}
+    to { transform: rotate(360deg) translate(500px) rotate(-360deg);}
+}
