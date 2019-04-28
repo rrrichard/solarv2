@@ -11,12 +11,92 @@ body {
 
 /*need this to assign the animation to the svg circle*/
 #neptune {
-    animation: NeptuneOrbit 20s linear infinite;
+    animation: NeptuneOrbit 10s linear infinite;
     transform-origin: 50% 50%;
 }
 
+
+#mercury {
+    animation: MercuryOrbit 10s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+#venus {
+    animation: VenusOrbit 10s linear infinite;
+}
+
+#earth {
+    animation: EarthOrbit 10s linear infinite;
+}
+
+#mars {
+    animation: MarsOrbit 10s linear infinite;
+}
+
+#jupiter {
+    animation: JupiterOrbit 10s linear infinite;
+}
+
+#saturn {
+    animation: SaturnOrbit 10s linear infinite;
+}
+
+#uranus {
+    animation: UranusOrbit 10s linear infinite;
+}
+
+#neptune {
+    animation: NeptuneOrbit 10s linear infinite;
+}
+
+
 /*you can edit the animation with this*/
 @keyframes NeptuneOrbit {
-    from { transform: rotate(0deg) translate(500px) rotate(0deg);}
-    to { transform: rotate(360deg) translate(500px) rotate(-360deg);}
+    from { transform: rotate(0deg) translate(410px) rotate(0deg);}
+    to { transform: rotate(360deg) translate(410px) rotate(-360deg);}
+}
+
+@keyframes MercuryOrbit {
+    from { transform: rotate(0deg) translate(35px) rotate(0deg);}
+    to { transform: rotate(360deg) translate(35px) rotate(-360deg);}
+}
+
+@keyframes VenusOrbit {
+    from { transform: rotate(0deg) translate(65px) rotate(0deg);}
+    to { transform: rotate(360deg) translate(65px) rotate(-360deg);}
+}
+
+@keyframes EarthOrbit {
+    from { transform: rotate(0deg) translate(90px) rotate(0deg);}
+    to { transform: rotate(360deg) translate(90px) rotate(-360deg);}
+}
+
+@keyframes MarsOrbit {
+    from { transform: rotate(0deg) translate(125px) rotate(0deg);}
+    to { transform: rotate(360deg) translate(125px) rotate(-360deg);}
+}
+
+@keyframes JupiterOrbit {
+    from { transform: rotate(0deg) translate(220px) rotate(0deg);}
+    to { transform: rotate(360deg) translate(220px) rotate(-360deg);}
+}
+
+@keyframes SaturnOrbit {
+    from { transform: rotate(0deg) translate(280px) rotate(0deg);}
+    to { transform: rotate(360deg) translate(280px) rotate(-360deg);}
+}
+
+@keyframes UranusOrbit {
+    from { transform: rotate(0deg) translate(340px) rotate(0deg);}
+    to { transform: rotate(360deg) translate(340px) rotate(-360deg);}
+}
+
+@keyframes NeptuneOrbit {
+    from { transform: rotate(0deg) translate(410px) rotate(0deg);}
+    to { transform: rotate(360deg) translate(410px) rotate(-360deg);}
+}
+
+@keyframes NeptuneOrbit {
+    from { transform: rotate(0deg) translate(410px) rotate(0deg);}
+    to { transform: rotate(360deg) translate(410px) rotate(-360deg);}
 }
