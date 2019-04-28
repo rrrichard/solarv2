@@ -83,8 +83,13 @@ divided by 24
     animation: PlutoOrbit 1100s linear infinite;
 }
 
+.stars {
+    animation:  twinkle 4s infinite forwards ease-in;
+    animation-direction: alternate;
+}
 
 /*you can edit the animation with this*/
+
 @keyframes NeptuneOrbit {
     from { transform: rotate(0deg) translate(410px) rotate(0deg);}
     to { transform: rotate(360deg) translate(410px) rotate(-360deg);}
@@ -138,4 +143,13 @@ divided by 24
 @keyframes PlutoOrbit {
     from { transform: rotate(0deg) translate(480px) rotate(0deg);}
     to { transform: rotate(360deg) translate(480px) rotate(-360deg);}
+}
+
+@keyframes twinkle {
+    from {
+        fill-opacity: 1;
+    }
+    to {
+        fill-opacity: 0;
+    }
 }
