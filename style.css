@@ -83,10 +83,26 @@ divided by 24
     animation: PlutoOrbit 1100s linear infinite;
 }
 
-.stars {
+.stars1 {
     animation:  twinkle 4s infinite forwards ease-in;
     animation-direction: alternate;
 }
+
+.stars2 {
+    animation:  twinkle 7s infinite forwards ease-in;
+    animation-direction: alternate;
+}
+
+.stars1 {
+    animation:  twinkle 4s infinite forwards ease-in;
+    animation-direction: alternate;
+}
+
+.stars3 {
+    animation:  twinkle 11s infinite forwards ease-in;
+    animation-direction: alternate;
+}
+
 
 /*you can edit the animation with this*/
 
@@ -148,8 +164,10 @@ divided by 24
 @keyframes twinkle {
     from {
         fill-opacity: 1;
+        r:1;
     }
     to {
         fill-opacity: 0;
+        r:2;
     }
 }
