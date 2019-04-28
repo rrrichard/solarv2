@@ -10,14 +10,31 @@ body {
 
 
 /*need this to assign the animation to the svg circle*/
-#neptune {
-    animation: NeptuneOrbit 10s linear infinite;
-    transform-origin: 50% 50%;
-}
+/*#neptune {*/
+    /*animation: NeptuneOrbit 10s linear infinite;*/
+    /*transform-origin: 50% 50%;*/
+/*}*/
 
+
+/*
+
+Revolution of planets in earth days (from Wikipedia)
+Mercury : 87.5 days
+Venus : 224.7 days
+Earth : 365.2563 days
+Mars : 687 days (~1,8 year)
+Jupiter : 331 days (~12 years)
+Saturn : 747 days (~30 years)
+Uranus : 589 days (~84 years)
+Neptune : 802 days (~165 years)
+Pluto : 580 days (~248 years)
+
+divided by 24
+
+*/
 
 #mercury {
-    animation: MercuryOrbit 10s linear infinite;
+    animation: MercuryOrbit 3.5s linear infinite;
     transform-origin: 50% 50%;
 }
 
@@ -26,27 +43,31 @@ body {
 }
 
 #earth {
-    animation: EarthOrbit 10s linear infinite;
+    animation: EarthOrbit 15s linear infinite;
 }
 
 #mars {
-    animation: MarsOrbit 10s linear infinite;
+    animation: MarsOrbit 25s linear infinite;
 }
 
 #jupiter {
-    animation: JupiterOrbit 10s linear infinite;
+    animation: JupiterOrbit 50s linear infinite;
 }
 
 #saturn {
-    animation: SaturnOrbit 10s linear infinite;
+    animation: SaturnOrbit 100s linear infinite;
 }
 
 #uranus {
-    animation: UranusOrbit 10s linear infinite;
+    animation: UranusOrbit 400s linear infinite;
 }
 
 #neptune {
-    animation: NeptuneOrbit 10s linear infinite;
+    animation: NeptuneOrbit 700s linear infinite;
+}
+
+#pluto {
+    animation: PlutoOrbit 1100s linear infinite;
 }
 
 
@@ -77,8 +98,8 @@ body {
 }
 
 @keyframes JupiterOrbit {
-    from { transform: rotate(0deg) translate(220px) rotate(0deg);}
-    to { transform: rotate(360deg) translate(220px) rotate(-360deg);}
+    from { transform: rotate(0deg) translate(210px) rotate(0deg);}
+    to { transform: rotate(360deg) translate(210px) rotate(-360deg);}
 }
 
 @keyframes SaturnOrbit {
@@ -99,4 +120,9 @@ body {
 @keyframes NeptuneOrbit {
     from { transform: rotate(0deg) translate(410px) rotate(0deg);}
     to { transform: rotate(360deg) translate(410px) rotate(-360deg);}
+}
+
+@keyframes PlutoOrbit {
+    from { transform: rotate(0deg) translate(480px) rotate(0deg);}
+    to { transform: rotate(360deg) translate(480px) rotate(-360deg);}
 }
