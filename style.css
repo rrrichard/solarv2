@@ -6,6 +6,9 @@
 body {
     margin: 0;
     text-align: center;
+    background-image: url("images/space.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -33,6 +36,12 @@ divided by 24
 
 */
 
+#sun {
+    /*background-image: url("images/sun.png");*/
+    background-size: cover;
+    background-position: center;
+}
+
 #mercury {
     animation: MercuryOrbit 3.5s linear infinite;
     transform-origin: 50% 50%;
@@ -58,6 +67,10 @@ divided by 24
     animation: SaturnOrbit 100s linear infinite;
 }
 
+#saturnRing {
+    animation: SaturnOrbit 100s linear infinite;
+}
+
 #uranus {
     animation: UranusOrbit 400s linear infinite;
 }
@@ -78,23 +91,23 @@ divided by 24
 }
 
 @keyframes MercuryOrbit {
-    from { transform: rotate(0deg) translate(35px) rotate(0deg);}
-    to { transform: rotate(360deg) translate(35px) rotate(-360deg);}
+    from { transform: rotate(0deg) translate(50px) rotate(0deg);}
+    to { transform: rotate(360deg) translate(50px) rotate(-360deg);}
 }
 
 @keyframes VenusOrbit {
-    from { transform: rotate(0deg) translate(65px) rotate(0deg);}
-    to { transform: rotate(360deg) translate(65px) rotate(-360deg);}
+    from { transform: rotate(0deg) translate(75px) rotate(0deg);}
+    to { transform: rotate(360deg) translate(75px) rotate(-360deg);}
 }
 
 @keyframes EarthOrbit {
-    from { transform: rotate(0deg) translate(90px) rotate(0deg);}
-    to { transform: rotate(360deg) translate(90px) rotate(-360deg);}
+    from { transform: rotate(0deg) translate(105px) rotate(0deg);}
+    to { transform: rotate(360deg) translate(105px) rotate(-360deg);}
 }
 
 @keyframes MarsOrbit {
-    from { transform: rotate(0deg) translate(125px) rotate(0deg);}
-    to { transform: rotate(360deg) translate(125px) rotate(-360deg);}
+    from { transform: rotate(0deg) translate(130px) rotate(0deg);}
+    to { transform: rotate(360deg) translate(130px) rotate(-360deg);}
 }
 
 @keyframes JupiterOrbit {
