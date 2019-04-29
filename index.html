@@ -1,109 +1,86 @@
-<!--<!DOCTYPE html>-->
-<!--<html lang="en">-->
-<!--<head>-->
-    <!--<meta charset="UTF-8">-->
-    <!--<title>Title</title>-->
-
-
-    <!--<style>-->
-        <!--* {-->
-            <!--box-sizing: border-box;-->
-        <!--}-->
-
-        <!--body {-->
-            <!--margin: 0;-->
-            <!--text-align: center;-->
-        <!--}-->
-
-        <!--#neptune {-->
-            <!--animation: NeptuneOrbit 20s linear infinite;-->
-            <!--transform-origin: 50% 50%;-->
-        <!--}-->
-
-        <!--@keyframes NeptuneOrbit {-->
-            <!--from { transform: rotate(0deg) translate(500px) rotate(0deg);}-->
-            <!--to { transform: rotate(360deg) translate(500px) rotate(-360deg);}-->
-        <!--}-->
-    <!--</style>-->
-
-<!--</head>-->
-<!--<body>-->
-    <!--<div>-->
-        <!--<svg width="100vw" height="100vh" fill="black">-->
-            <!--<rect height="100%" width="100%" fill="black">-->
-                <!--<circle cx="50%" cy="50%" r="500" stroke="#ffffff" stroke-width="1" fill="#000000"/>-->
-                <!--<circle id="neptune" cx="50%" cy="50%" r="30" stroke="black" stroke-width="3" fill="#1fb7ba"/>-->
-            <!--</rect>-->
-        <!--</svg>-->
-
-    <!--</div>-->
-<!--<h2>hello</h2>-->
-
-<!--</body>-->
-<!--</html>-->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Solar System</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <style>
-
-    </style>
 </head>
 <body>
 <div>
     <svg width="100vw" height="1200px" fill="black">
         <rect height="100%" width="100%" fill="#070708a1" />
 
-
-        <!--assigns the position of the circle orbit-->
-        <!--<circle cx="50%" cy="50%" r="500" stroke="#ffffff" stroke-width="0.3" fill="#000000"/>-->
-        <!--is the shape and size of the circle-->
-        <!--<circle id="neptunes" cx="50%" cy="50%" r="30" stroke="black" stroke-width="3" fill="#1fb7ba"/>-->
-
-
-
+        <!--planets-->
         <circle cx="50%" cy="50%" r="50" stroke="#445977" stroke-width="0.3" fill="transparent"/>
         <circle id="mercury" cx="50%" cy="50%" r="4" stroke="black" stroke-width="1" fill="#edf2b2" fill-opacity="0.8"/>
-
 
         <circle cx="50%" cy="50%" r="75" stroke="#445977" stroke-width="0.3" fill="transparent"/>
         <circle id="venus" cx="50%" cy="50%" r="6" stroke="black" stroke-width="1" fill="#be691c"/>
 
-
         <circle cx="50%" cy="50%" r="105" stroke="#445977" stroke-width="0.3" fill="transparent"/>
         <circle id="earth" cx="50%" cy="50%" r="8" stroke="black" stroke-width="1" fill="#6096cc"/>
 
-
         <circle cx="50%" cy="50%" r="130" stroke="#445977" stroke-width="0.3" fill="transparent"/>
         <circle id="mars" cx="50%" cy="50%" r="6" stroke="black" stroke-width="1" fill="#8b1b04"/>
-        
-        <circle class="stars" cx="300" cy="300" r="1" fill="white"/>
 
         <circle cx="50%" cy="50%" r="210" stroke="#445977" stroke-width="0.3" fill="transparent"/>
         <circle id="jupiter" cx="50%" cy="50%" r="21" stroke="black" stroke-width="1" fill="#e9a656"/>
-
 
         <circle cx="50%" cy="50%" r="280" stroke="#445977" stroke-width="0.3" fill="transparent"/>
         <circle id="saturn" cx="50%" cy="50%" r="17" stroke="black" stroke-width="1" fill="#d3b79f"/>
         <circle id="saturnRing" cx="50%" cy="50%" r="25" stroke="#d3b79f" stroke-width="2" fill="transparent"/>
 
-
         <circle cx="50%" cy="50%" r="340" stroke="#445977" stroke-width="0.3" fill="transparent"/>
         <circle id="uranus" cx="50%" cy="50%" r="13" stroke="black" stroke-width="1" fill="#5f96d3"/>
-
 
         <circle cx="50%" cy="50%" r="410" stroke="#445977" stroke-width="0.3" fill="transparent"/>
         <circle id="neptune" cx="50%" cy="50%" r="12" stroke="black" stroke-width="1" fill="#1fb7ba"/>
 
-
         <circle cx="50%" cy="50%" r="480" stroke="#445977" stroke-width="0.3" fill="transparent"/>
         <circle id="pluto" cx="50%" cy="50%" r="3" stroke="black" stroke-width="1" fill="#6a6d70"/>
+
         <!--sun-->
         <circle id="sun" cx="50%" cy="50%" r="30" stroke="black" stroke-width="1" fill="#ffee33e8"/>
+
+        <!--stars-->
+
+        <circle class="stars1" cx="220" cy="100" r="1" fill="white"/>
+        <circle class="stars2" cx="400" cy="120" r="1" fill="white"/>
+        <circle class="stars3" cx="1250" cy="240" r="1" fill="white"/>
+        <circle class="stars1" cx="600" cy="135" r="1" fill="white"/>
+        <circle class="stars2" cx="100" cy="175" r="1" fill="white"/>
+        <circle class="stars3" cx="950" cy="290" r="1" fill="white"/>
+        <circle class="stars1" cx="695" cy="345" r="1" fill="white"/>
+        <circle class="stars1" cx="915" cy="405" r="1" fill="white"/>
+        <circle class="stars1" cx="1205" cy="235" r="1" fill="white"/>
+        <circle class="stars1" cx="1025" cy="95" r="1" fill="white"/>
+
+        <circle class="stars2" cx="850" cy="600" r="1" fill="white"/>
+        <circle class="stars3" cx="365" cy="510" r="1" fill="white"/>
+        <circle class="stars1" cx="90%" cy="420" r="1" fill="white"/>
+        <circle class="stars2" cx="755" cy="590" r="1" fill="white"/>
+        <circle class="stars3" cx="195" cy="350" r="1" fill="white"/>
+        <circle class="stars1" cx="1200" cy="690" r="1" fill="white"/>
+        <circle class="stars2" cx="940" cy="465" r="1" fill="white"/>
+        <circle class="stars3" cx="445" cy="360" r="1" fill="white"/>
+        <circle class="stars1" cx="870" cy="410" r="1" fill="white"/>
+        <circle class="stars2" cx="1100" cy="550" r="1" fill="white"/>
+
+        <circle class="stars3" cx="1320" cy="1200" r="1" fill="white"/>
+        <circle class="stars1" cx="1020" cy="950" r="1" fill="white"/>
+        <circle class="stars2" cx="350" cy="820" r="1" fill="white"/>
+        <circle class="stars3" cx="740" cy="1025" r="1" fill="white"/>
+        <circle class="stars1" cx="870" cy="700" r="1" fill="white"/>
+        <circle class="stars2" cx="230" cy="880" r="1" fill="white"/>
+        <circle class="stars3" cx="1020" cy="985" r="1" fill="white"/>
+        <circle class="stars1" cx="1250" cy="1090" r="1" fill="white"/>
+        <circle class="stars2" cx="650" cy="1295" r="1" fill="white"/>
+        <circle class="stars3" cx="710" cy="900" r="1" fill="white"/>
+
     </svg>
+</div>
+<div class="solar">SOLAR
+    <br>SYSTEM
 </div>
 </body>
 </html>
